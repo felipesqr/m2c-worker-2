@@ -1,4 +1,4 @@
-package com.felipesqr.messaging.m2cworker2;
+package com.felipesqr.m2c.errormanagement;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

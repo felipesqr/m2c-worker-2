@@ -1,10 +1,10 @@
-package com.felipesqr.messaging.m2cworker2.listener;
+package com.felipesqr.jms;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Consumer {
+public class MessageConsumer {
 
     @JmsListener(destination = "standalone.queue")
     public void consume(String message) {
